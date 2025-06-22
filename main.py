@@ -95,9 +95,9 @@ _apply_discord_embed_patch()
 
 @register(
     name="DiscordEmbedAdapter",
-    author="Gemini & Simon",
+    author="SXP-Simon",
     desc="自动将发送至Discord的文本消息转换为精美的Embed格式。",
-    version="4.2.0-final",
+    version="1.0.0",
 )
 class DiscordEmbedAdapter(Star):
     """拦截发往Discord的消息，转换为Embed格式后自行发送，并终止原始事件。"""
