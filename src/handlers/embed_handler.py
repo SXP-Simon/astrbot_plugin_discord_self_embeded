@@ -30,8 +30,9 @@ class EmbedHandler:
         """
         try:
             # 检查是否为Discord消息
-            if event.get_platform_name() != "discord" or not event.get_session_id().startswith("discord:"):
-                logger.debug("非 Discord 平台消息，跳过处理")
+            platform_name = event.get_platform_name()
+            if platform_name != "discord":
+                logger.debug(f"非 Discord 平台消息 (platform_name={platform_name})，跳过处理")
                 return
 
             result = event.get_result()
