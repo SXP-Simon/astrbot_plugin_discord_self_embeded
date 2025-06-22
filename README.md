@@ -44,3 +44,5 @@
 ## 插件信息
 
 - 作者：SXP-Simon
+
+- 鸣谢：Hakimyu (对 Discord Adapter 适配的修复：[fix: 修复 send_by_session 的 message_obj 为 None 的错误](https://github.com/AstrBotDevs/AstrBot/pull/1888/commits/3d4b651c1ff99dfcc3e1fd5567b3dfb19754ed2c))
